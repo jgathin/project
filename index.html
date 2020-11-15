@@ -3,26 +3,78 @@
 <html>
    <head>
       <title>HTML Me Something</title>
+
+      <link rel="stylesheet" href="style.css">
+
+      <style>
+          p.solid {
+              border-style: solid;
+              border-width: 10px;
+            }
+            a:link, a:visited, a:active {
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            a:hover {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            font-weight: bold;
+            }
+
+            .headingone {
+                font-size: 50px;
+            }
+
+            .impact {
+                font-family: Impact, Charcoal, sans-serif;
+                font-size: 50px;
+            }
+
+            .impact2 {
+                font-family: Impact, Charcoal, sans-serif;
+                font-size: 40px;
+            }
+
+        </style>
    </head>
 
    <body>
        <main>
        <header>
-           <h1>My Professional Career</h1>
+           <h1 class ="impact">My Professional Career</h1>
             <ol>
-                <li>Buckle</li>
-                <li>Express</li>
-                <li>Work Study</li>
-                <li>Best Buy</li>
-                <li>Lowe's</li>
-                <li>Custom Sounds</li>
-                <li>Best Buy</li>
-                <li>The B1G GUY LLC.</li>
+                <li>
+                    <a href="#buckle">Buckle</a>
+                </li>
+                <li>
+                    <a href="#express">Express</a>
+                </li>
+                <li>
+                    <a href="#workstudy">Work Study</a>
+                </li>
+                <li>
+                    <a href="#bestbuy">Best Buy</a>
+                </li>
+                <li>
+                    <a href="#lowes">Lowe's</a>
+                </li>
+                <li>
+                    <a href="#customsounds">Custom Sounds</a>
+                </li>
+                <li>
+                    <a href="#bigguy">The B1G GUY LLC.</a>
+                </li>
             </ol>
        </header>
-       <p>Hello World!!</p>
+       <p>Let's take a brief plunge into my employment history. Overtime I will come back to this project and continue to 
+           update accordingly! Bare with me as you watch this site change before your eyes!!
+       </p>
        <div>
-           <h2>Buckle</h2>
+           <a name="buckle"></a>
+           <h2 class="impact2">Buckle</h2>
            <img src= "images/buckle.jpg" width = "600">
            <p>
                My first actual job. I believe I was 18 years old. Did it for as long as I could.
@@ -31,7 +83,8 @@
        </div>
 
        <div>
-           <h2>Express</h2>
+           <a name="express"></a>
+           <h2 class ="impact2">Express</h2>
            <img src= "images/express.jpg" width = "600">
            <p>
                My second job that didn't last long. Worked for 3 months because I enjoyed the extra
@@ -41,7 +94,8 @@
        </div>
 
        <div>
-           <h2>Work Study</h2>
+           <a name="workstudy"></a>
+           <h2 class ="impact2">Work Study</h2>
            <img src= "images/workstudy.jpg" width = "600">
            <p>
                This was my on campus job. After my collegiate basketball career I took on a work study 
@@ -51,7 +105,8 @@
        </div>
 
        <div>
-           <h2>Best Buy</h2>
+           <a name="bestbuy"></a>
+           <h2 class ="impact2">Best Buy</h2>
            <img src= "images/bestbuy.jpeg" width = "600">
            <p>
                The beginning of the end. My first real job I guess you could say. I started working in the 
@@ -66,7 +121,8 @@
        </div>
 
        <div>
-           <h2>Lowe's</h2>
+           <a name ="lowes"></a>
+           <h2 class="impact2">Lowe's</h2>
            <img src= "images/lowes.jfif" width = "600">
            <p>
                Summer job to hold me over.
@@ -74,7 +130,8 @@
        </div>
 
        <div>
-           <h2>Custom Sounds</h2>
+           <a name="customsounds"></a>
+           <h2 class ="impact2">Custom Sounds</h2>
            <img src= "images/customsounds.jpg" width = "600">
            <p>
                Left Best Buy for 10 months to acquire more technical and custom knowledge.
@@ -82,7 +139,8 @@
        </div>
 
        <div>
-           <h2>THE B1G GUY LLC.</h2>
+           <a name="bigguy"></a>
+           <h2 class ="impact2">THE B1G GUY LLC.</h2>
            <p>
                I started my first LLC!!
            </p>
